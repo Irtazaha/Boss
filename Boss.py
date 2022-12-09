@@ -76,7 +76,7 @@ class Main:
 		self.loop = 0
 		try:
 			plr = requests.get('https://github.com/Irtazaha/Approval/blob/main/Approval.txt').text
-			if irtazaha in plr:
+			if Mardis in plr:
 				key = basesplit
 				stat = ("\033[0;92mP R E M I U M")
 				FY = '\033[0;93m'
